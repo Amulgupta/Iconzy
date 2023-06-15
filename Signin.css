@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: montserrat;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(Images/Signinbackground.jpg);
+    height: 100vh;
+    overflow: hidden;
+}
+
+.form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background: white;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+
+.form h1{
+    text-align: center;
+    padding: 0 0 20px 0;
+}
+
+.form input{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 75%;
+    height: 35px;
+    background: transparent;
+    margin-left: 2px;
+    border-bottom: 1px solid #c8c0c0;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #1c1a1a;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: Arial;
+}
+
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: #585353;
+    font-family: Arial;
+}
+
+.pass{
+    margin-left: 5px;
+}
+
+.btn{
+    width: 240px;
+    height: 40px;
+    background: #947a50;
+    border: none;
+    margin-left:53px;
+    margin-top: 24px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.btn:hover{
+    background: #03b6e8;
+}
+
+.btn a{
+    text-decoration: none;
+    color: #131211;
+    font-weight: bold;
+}
+
+
+.pass{
+    margin-left: 5px;
+    margin-top: -5px;
+    font-size: 17px;
+    color: #585353;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.pass:hover{
+    text-decoration: underline;
+    color:#57daf1;
+}
+
+.form .sign_up{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 48px;
+    margin-top: -30px;
+    padding-top: 20px;
+}
+
+.form .sign_up a{
+    text-decoration: none;
+    color:#8eb6c2;
+    transition: 0.3s ease;
+}
+
+.form .sign_up a:hover{
+    text-decoration: underline;
+    color:#88d53a;
+}
+
+.or{
+    font-size: 18px;
+    margin-top: -15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logiwit{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: -20px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.icons{
+    margin-top: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.icons ion-icon{
+    color: #000;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-top: 15px;
+    transition: 0.3s ease;
+}
+
+.icons ion-icon:hover{
+    color: #03b6e8;
+}
